@@ -1,0 +1,87 @@
+body{
+    background-color:#494f61;
+} 
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position:relative;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.menu{
+    padding: 3px 5px;
+    margin: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:chocolate;
+}
+
+.menu button{
+    font-weight: bold;
+    font-family: Verdana;
+    background-color: white;
+    font-size: 10px;
+}
+
+
+.time{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 8px;
+    display: grid;
+    place-items: center;
+    margin-right: 25px;
+}
+
+.tel{
+    font-size: 11px;
+    padding-top: 5px;
+}
+.time p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+.log{
+    margin-right: 20px;
+}
+
+button{
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.burger{
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    padding: 5px;
+}
